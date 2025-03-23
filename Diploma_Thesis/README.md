@@ -5,4 +5,5 @@ Exploration of each phase of the CRISP-DM methodology from data understanding to
 
 ### Programming languages:
 R -> Data Analysis and Pattern recognition
+
 Python -> Implementation of Machine Learning models
