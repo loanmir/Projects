@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ParseSnakeMovement" tests="9" skipped="1" failures="0" errors="0" timestamp="2025-01-28T18:43:55" hostname="LAPTOP-8C6TBLN5" time="0.006">
+  <properties/>
+  <testcase name="moveDownNoEatingHeadUpdate()" classname="ParseSnakeMovement" time="0.0"/>
+  <testcase name="moveRightNoEatingHeadUpdate()" classname="ParseSnakeMovement" time="0.0"/>
+  <testcase name="moveLeftNoEatingHeadUpdate()" classname="ParseSnakeMovement" time="0.001"/>
+  <testcase name="foodIsEaten()" classname="ParseSnakeMovement" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="moveRightEatingHeadUpdate()" classname="ParseSnakeMovement" time="0.0"/>
+  <testcase name="moveDownEatingHeadUpdate()" classname="ParseSnakeMovement" time="0.001"/>
+  <testcase name="moveUpNoEatingHeadUpdate()" classname="ParseSnakeMovement" time="0.001"/>
+  <testcase name="moveUpEatingHeadUpdate()" classname="ParseSnakeMovement" time="0.001"/>
+  <testcase name="moveLeftEatingHeadUpdate()" classname="ParseSnakeMovement" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

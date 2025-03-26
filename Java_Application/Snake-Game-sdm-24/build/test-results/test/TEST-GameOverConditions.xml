@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="GameOverConditions" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-01-28T18:43:55" hostname="LAPTOP-8C6TBLN5" time="0.012">
+  <properties/>
+  <testcase name="deathBySelfCollision()" classname="GameOverConditions" time="0.011"/>
+  <testcase name="deathByBorderCollision()" classname="GameOverConditions" time="0.001"/>
+  <system-out><![CDATA[headCoordinate(x=4, y=5) body[Coordinate(x=5, y=5), Coordinate(x=4, y=5), Coordinate(x=4, y=6)]
+Game Over: Head collided with body
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

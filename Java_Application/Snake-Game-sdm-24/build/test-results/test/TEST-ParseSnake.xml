@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ParseSnake" tests="3" skipped="3" failures="0" errors="0" timestamp="2025-01-28T18:43:55" hostname="LAPTOP-8C6TBLN5" time="0.001">
+  <properties/>
+  <testcase name="snakeTailRowNotChangingAfterEating()" classname="ParseSnake" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="snakeTailColNotChangingAfterEating()" classname="ParseSnake" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="snakeGrowsAfterEating()" classname="ParseSnake" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

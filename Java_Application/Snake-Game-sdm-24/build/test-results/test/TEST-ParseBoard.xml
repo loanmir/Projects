@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ParseBoard" tests="8" skipped="3" failures="0" errors="0" timestamp="2025-01-28T18:43:55" hostname="LAPTOP-8C6TBLN5" time="0.006">
+  <properties/>
+  <testcase name="firstCellHasSnakeHead()" classname="ParseBoard" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="secondCellHasFood()" classname="ParseBoard" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="wallsAtEdgesOfBoard()" classname="ParseBoard" time="0.001"/>
+  <testcase name="boardHasSnakeLongOne()" classname="ParseBoard" time="0.0"/>
+  <testcase name="boardHasOneFood()" classname="ParseBoard" time="0.001"/>
+  <testcase name="boardSizeIsThirty()" classname="ParseBoard" time="0.001"/>
+  <testcase name="foodAdditionInCenterCell()" classname="ParseBoard" time="0.0"/>
+  <testcase name="newFoodIsSpawnedAfterEating()" classname="ParseBoard" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,2 @@
+aheadCoordinate(x=4, y=5) body[Coordinate(x=5, y=5), Coordinate(x=4, y=5), Coordinate(x=4, y=6)]
+$Game Over: Head collided with body
