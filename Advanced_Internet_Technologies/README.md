@@ -1,1 +1,42 @@
+## LAB 1: IPv6 Network Configuration with Mininet
 
+### Course: Advanced Internet Technologies
+
+### Description: 
+
+Configuration of IPv6 networks in a virtual environment using Mininet.
+Assigning IPv6 addresses, analyzing generated traffic and comparing it with IPv4, managing routing tables, and testing communication between virtual hosts.
+Experiments on IPv6 address duplication and routing table management for inter-subnet communication.
+
+## LAB 2: Virtual Private Networks (VPN)
+
+### Course: Advanced Internet Technologies
+
+### Description: 
+
+Configuration and use of an L2TP and IPsec-based VPN
+Network traffic analysis before and after enabling the VPN to verify the change in public IP address and the routing of traffic through the VPN server.
+
+#### Experiments conducted:
+  - Configuring the VPN with the provided parameters.
+  - Analyzing the IP address before and after connecting to the VPN.
+  - Modifying the routing table to examine how traffic is routed through the VPN.
+  - Using Wireshark to analyze the authentication process and verify if the data is encrypted.
+  - Inspecting network traffic on both the physical network and the VPN to confirm packet encryption.
+  - Analyzing webpage loading with and without the VPN to check for differences in response times and contacted IP addresses.
+
+## LAB 3: Performance Analysis of HTTP and QUIC
+
+### Course: Advanced Internet Technologies
+
+### Description: 
+
+Experiments on TCP, HTTP (various versions), and QUIC to evaluate their performance.
+Using tools such as Google Chrome Debugger, BrowserTime, and curl to inspect HTTP transactions, perform web scraping, and measure webpage performance across different protocols.
+
+#### Experiments conducted:
+  - Analyzing HTTP traffic using Google Chrome Debugger.
+  - Scraping weather data with curl and Bash tools.
+  - Measuring webpage loading performance with BrowserTime, testing different protocols (HTTP/1.1, HTTP/2, HTTP/3).
+  - Comparing webpage loading times across different HTTP versions.
+  - Applying artificial network delays to observe their impact on loading performance.
