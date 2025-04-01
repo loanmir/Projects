@@ -1,4 +1,6 @@
 ## Snake Game (Group project)
+Git repository for the final project assignment in Software Development Methods course
+
 
 A classic Snake game implemented in Java with a simple, retro aesthetic and a structured development approach.
 
