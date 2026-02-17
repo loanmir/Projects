@@ -1,0 +1,40 @@
+\ Model Electric_Bus_Model_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+\ Signature: 0x1f7297f21e626aea
+Maximize
+ 
+Subject To
+ variable_cost_constraint: 500 ns_j[Depot1] + 500 ns_j[Depot2]
+   + 500 ns_j[Depot3] + 500 ns_j[Stop1] + 500 ns_j[Stop2] + 500 ns_j[Stop3]
+   + 500 ns_j[Stop4] + 500 ns_j[Stop5] + 500 ns_j[Stop6] + 500 ns_j[Stop7]
+   + 500 ns_j[Stop8] + 500 ns_j[Stop9] + 500 ns_j[Stop10]
+   + 500 ns_j[Stop11] + 500 ns_j[Stop12] + 500 ns_j[Stop13]
+   + 500 ns_j[Stop14] + 500 ns_j[Stop15] + 500 ns_j[Stop16]
+   + 500 ns_j[Stop17] + 500 ns_j[Stop18] + 500 ns_j[Stop19]
+   + 500 ns_j[Stop20] + 500 ns_j[Stop21] + 500 ns_j[Stop22]
+   + 500 ns_j[Stop23] + 4500 np_jc[Depot1,c1] + 4500 np_jc[Depot2,c1]
+   + 4500 np_jc[Depot3,c1] + 4500 np_jc[Stop1,c1] + 4500 np_jc[Stop2,c1]
+   + 4500 np_jc[Stop3,c1] + 4500 np_jc[Stop4,c1] + 4500 np_jc[Stop5,c1]
+   + 4500 np_jc[Stop6,c1] + 4500 np_jc[Stop7,c1] + 4500 np_jc[Stop8,c1]
+   + 4500 np_jc[Stop9,c1] + 4500 np_jc[Stop10,c1] + 4500 np_jc[Stop11,c1]
+   + 4500 np_jc[Stop12,c1] + 4500 np_jc[Stop13,c1] + 4500 np_jc[Stop14,c1]
+   + 4500 np_jc[Stop15,c1] + 4500 np_jc[Stop16,c1] + 4500 np_jc[Stop17,c1]
+   + 4500 np_jc[Stop18,c1] + 4500 np_jc[Stop19,c1] + 4500 np_jc[Stop20,c1]
+   + 4500 np_jc[Stop21,c1] + 4500 np_jc[Stop22,c1] + 4500 np_jc[Stop23,c1]
+   <= -5.82e+06
+Bounds
+Binaries
+ ns_j[Depot1] ns_j[Depot2] ns_j[Depot3] ns_j[Stop1] ns_j[Stop2] ns_j[Stop3]
+ ns_j[Stop4] ns_j[Stop5] ns_j[Stop6] ns_j[Stop7] ns_j[Stop8] ns_j[Stop9]
+ ns_j[Stop10] ns_j[Stop11] ns_j[Stop12] ns_j[Stop13] ns_j[Stop14]
+ ns_j[Stop15] ns_j[Stop16] ns_j[Stop17] ns_j[Stop18] ns_j[Stop19]
+ ns_j[Stop20] ns_j[Stop21] ns_j[Stop22] ns_j[Stop23]
+Generals
+ np_jc[Depot1,c1] np_jc[Depot2,c1] np_jc[Depot3,c1] np_jc[Stop1,c1]
+ np_jc[Stop2,c1] np_jc[Stop3,c1] np_jc[Stop4,c1] np_jc[Stop5,c1]
+ np_jc[Stop6,c1] np_jc[Stop7,c1] np_jc[Stop8,c1] np_jc[Stop9,c1]
+ np_jc[Stop10,c1] np_jc[Stop11,c1] np_jc[Stop12,c1] np_jc[Stop13,c1]
+ np_jc[Stop14,c1] np_jc[Stop15,c1] np_jc[Stop16,c1] np_jc[Stop17,c1]
+ np_jc[Stop18,c1] np_jc[Stop19,c1] np_jc[Stop20,c1] np_jc[Stop21,c1]
+ np_jc[Stop22,c1] np_jc[Stop23,c1]
+End
