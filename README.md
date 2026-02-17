@@ -1,2 +1,2 @@
 # Projects
-Projects and lab activities carried out during university
+Academic Projects & Laboratory Work
