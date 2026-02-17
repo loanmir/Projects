@@ -1,10 +1,12 @@
-# Electric Bus Network Optimization (ILP)
+# Electric Bus Network Optimization (ILP) - Group Project
 
 ## Overview
 
 This project implements the Opt-Fast-Char2 model to optimize the transition from conventional to electric bus fleets. Using Integer Linear Programming (ILP), the system determines the best locations for fast-charging stations and manages bus assignments to maximize passenger capacity within strict budget and power constraints.
 
 The project represents an implementation of the proposed solution found in the following paper: https://www.sciencedirect.com/science/article/abs/pii/S1366554523000534.
+
+Project documents and codebase were developed as a group project together with my university colleague: **Francesco Rumiz**.
 
 ## Key Features
 
