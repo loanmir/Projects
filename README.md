@@ -1,2 +1,2 @@
 # Projects
-Academic Projects & Laboratory Work
+Personal/Academic Projects & Laboratory Work
